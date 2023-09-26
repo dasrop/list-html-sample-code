@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <style>
+.fab-icon-holder,.fab-label{box-shadow:0 6px 20px rgba(0,0,0,.2)}.fab-container{position:fixed;bottom:50px;left:30px;transform:translateX(-50%);z-index:999;cursor:pointer}.fab-icon-holder{width:50px;height:50px;border-radius:100%;background:0 0}.fab-icon-holder i,.fab-icon-holder svg{display:flex;align-items:center;justify-content:center;height:100%;font-size:25px;color:#fff;background:inherit;border-radius:inherit}.fab{width:55px;height:55px;background:0 0;transform:rotate(0);transition:.4s}.fab:hover{transform:rotate(270deg)}.fab-options{list-style-type:none;margin:0;position:absolute;bottom:70px;right:0;opacity:0;transition:.3s;transform:scale(0);transform-origin:80% bottom}.fab-options:hover,.fab:hover+.fab-options{opacity:1;transform:scale(1)}.fab-options .fab-li{display:flex;justify-content:flex-end;padding:5px}.fab-label{padding:2px 5px;align-self:center;user-select:none;white-space:nowrap;border-radius:3px;font-size:16px;background:#666;color:#fff;margin-right:10px}.floating-link{text-decoration:none}.fab-icon-holder .bi-send-plus{color:#ffff;background-color:red}.fab-icon-holder .bi-youtube{background-color:red}.fab-icon-holder .bi-instagram{background-color:#e4405f}.fab-icon-holder .bi-tiktok{background-color:#000}.fab-icon-holder .bi-whatsapp{background-color:#25d366}
+    </style>
+<body>
+    <div class='fab-container'>
+        <div class='fab fab-icon-holder'>
+            <!-- Menggunakan ikon Bootstrap Icons -->
+            <i class="bi bi-send-plus"></i>
+        </div>
+
+        <ul class='fab-options'>
+            <li class='fab-li'>
+                <div class='fab-icon-holder'>
+                    <a class='floating-link' href='https://www.youtube.com/channel/UC1QSpDQ4jaNZg5cs_9LPyMQ'>
+                        <!-- Menggunakan ikon Bootstrap Icons -->
+                        <i class='bi bi-youtube'></i>
+                    </a>
+                </div>
+            </li>
+            <li class='fab-li'>
+                <div class='fab-icon-holder'>
+                    <a class='floating-link' href='https://www.instagram.com/sinergirator.official'>
+                        <!-- Menggunakan ikon Bootstrap Icons -->
+                        <i class='bi bi-instagram'></i>
+                    </a>
+                </div>
+            </li>
+            <li class='fab-li'>
+                <div class='fab-icon-holder'>
+                    <a class='floating-link' href='https://www.tiktok.com/@indonesiasinergi'>
+                        <!-- Menggunakan ikon Bootstrap Icons -->
+                        <i class='bi bi-tiktok'></i>
+                    </a>
+                </div>
+            </li>
+            <li class='fab-li'>
+                <div class='fab-icon-holder'>
+                    <a class='floating-link' href='https://wa.me/6285880362022?text='>
+                        <!-- Menggunakan ikon Bootstrap Icons -->
+                        <i class='bi bi-whatsapp'></i>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
